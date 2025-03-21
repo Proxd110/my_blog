@@ -1,84 +1,91 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Box,
   SimpleGrid,
   Image,
   Text,
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalCloseButton,
-  ModalBody,
-  useDisclosure,
+  Button,
   useColorModeValue,
 } from '@chakra-ui/react';
 
 function Movies() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const [selectedMovie, setSelectedMovie] = useState(null);
-
   const movies = [
-    { title: 'Película 1', url: 'https://drive.google.com/file/d/xxx1/preview', poster: 'https://via.placeholder.com/200x300?text=Película+1' },
-    { title: 'Película 2', url: 'https://drive.google.com/file/d/xxx2/preview', poster: 'https://via.placeholder.com/200x300?text=Película+2' },
-    { title: 'Película 3', url: 'https://drive.google.com/file/d/xxx3/preview', poster: 'https://via.placeholder.com/200x300?text=Película+3' },
-    { title: 'Película 4', url: 'https://drive.google.com/file/d/xxx4/preview', poster: 'https://via.placeholder.com/200x300?text=Película+4' },
-    { title: 'Película 5', url: 'https://drive.google.com/file/d/xxx5/preview', poster: 'https://via.placeholder.com/200x300?text=Película+5' },
+    {
+      id: '1',
+      title: 'Película 1',
+      poster: 'https://drive.google.com/uc?export=view&id=xxx1', // Reemplaza xxx1 con el ID de la imagen en Google Drive
+      video: 'https://drive.google.com/file/d/xxx1-video/preview', // Reemplaza xxx1-video con el ID del video
+      categories: ['Acción', 'Aventura'],
+      description: 'Una emocionante película de acción y aventura que te mantendrá al borde de tu asiento.',
+    },
+    {
+      id: '2',
+      title: 'Película 2',
+      poster: 'https://drive.google.com/uc?export=view&id=xxx2',
+      video: 'https://drive.google.com/file/d/xxx2-video/preview',
+      categories: ['Comedia', 'Romance'],
+      description: 'Una comedia romántica perfecta para una noche relajada.',
+    },
+    {
+      id: '3',
+      title: 'Película 3',
+      poster: 'https://drive.google.com/uc?export=view&id=xxx3',
+      video: 'https://drive.google.com/file/d/xxx3-video/preview',
+      categories: ['Drama', 'Suspenso'],
+      description: 'Un drama intenso con giros inesperados que te sorprenderán.',
+    },
+    {
+      id: '4',
+      title: 'Película 4',
+      poster: 'https://drive.google.com/uc?export=view&id=xxx4',
+      video: 'https://drive.google.com/file/d/xxx4-video/preview',
+      categories: ['Ciencia Ficción', 'Acción'],
+      description: 'Una épica de ciencia ficción con efectos visuales impresionantes.',
+    },
+    {
+      id: '5',
+      title: 'Película 5',
+      poster: 'https://drive.google.com/uc?export=view&id=xxx5',
+      video: 'https://drive.google.com/file/d/xxx5-video/preview',
+      categories: ['Animación', 'Familiar'],
+      description: 'Una película animada ideal para toda la familia.',
+    },
   ];
 
   const bg = useColorModeValue('gray.100', 'gray.800');
   const cardBg = useColorModeValue('gray.200', 'gray.700');
   const color = useColorModeValue('black', 'white');
 
-  const handleMovieClick = (movie) => {
-    setSelectedMovie(movie);
-    onOpen();
-  };
-
   return (
     <Box p={4} bg={bg} minH="calc(100vh - 64px)">
       <SimpleGrid columns={{ base: 1, sm: 2, md: 3, lg: 4 }} spacing={4}>
-        {movies.map((movie, index) => (
+        {movies.map((movie) => (
           <Box
-            key={index}
+            key={movie.id}
             bg={cardBg}
             rounded="md"
             overflow="hidden"
-            cursor="pointer"
             _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s' }}
-            onClick={() => handleMovieClick(movie)}
           >
             <Image src={movie.poster} alt={movie.title} objectFit="cover" h="300px" w="100%" />
             <Box p={3}>
-              <Text fontSize="lg" fontWeight="bold" color={color}>
+              <Text fontSize="lg" fontWeight="bold" color={color} mb={2}>
                 {movie.title}
               </Text>
+              <Button
+                as={Link}
+                to={`/movies/${movie.id}`}
+                colorScheme="teal"
+                size="sm"
+                w="100%"
+              >
+                Ver ahora
+              </Button>
             </Box>
           </Box>
         ))}
       </SimpleGrid>
-
-      {/* Modal para reproducir la película */}
-      <Modal isOpen={isOpen} onClose={onClose} size="xl">
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>{selectedMovie?.title}</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            {selectedMovie && (
-              <Box>
-                <iframe
-                  src={selectedMovie.url}
-                  width="100%"
-                  height="400px"
-                  allow="autoplay"
-                  title={selectedMovie.title}
-                />
-              </Box>
-            )}
-          </ModalBody>
-        </ModalContent>
-      </Modal>
     </Box>
   );
 }

@@ -11,14 +11,15 @@ import {
 } from '@chakra-ui/react';
 import Home from './pages/Home';
 import Movies from './pages/Movies';
+import MoviePlayer from './pages/MoviePlayer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 
 function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const bg = useColorModeValue('gray.100', 'gray.800'); // Fondo adaptable
-  const color = useColorModeValue('gray.800', 'white'); // Color de texto adaptable
-  const hoverBg = useColorModeValue('gray.300', 'gray.700'); // Color al hacer hover
+  const bg = useColorModeValue('gray.100', 'gray.800');
+  const color = useColorModeValue('gray.800', 'white');
+  const hoverBg = useColorModeValue('gray.300', 'gray.700');
 
   return (
     <Flex
@@ -32,13 +33,13 @@ function Navbar() {
       position="sticky"
       top="0"
       zIndex="10"
-      boxShadow="md" // Añade sombra para mejor definición
+      boxShadow="md"
     >
       <Stack direction="row" spacing={4}>
         <Button as={Link} to="/" variant="ghost" _hover={{ bg: hoverBg }}>
           Inicio
         </Button>
-        <Button as={Link} to="/" variant="ghost" _hover={{ bg: hoverBg }}>
+        <Button as={Link} to="/about" variant="ghost" _hover={{ bg: hoverBg }}>
           Sobre mí
         </Button>
         <Button as={Link} to="/portfolio" variant="ghost" _hover={{ bg: hoverBg }}>
@@ -49,7 +50,7 @@ function Navbar() {
         </Button>
       </Stack>
       <Switch
-        isChecked={colorMode === 'dark'} // Marcado cuando está en modo oscuro
+        isChecked={colorMode === 'dark'}
         onChange={toggleColorMode}
         colorScheme="teal"
       />
@@ -58,7 +59,7 @@ function Navbar() {
 }
 
 function App() {
-  const bg = useColorModeValue('gray.100', 'gray.800'); // Fondo adaptable para el app
+  const bg = useColorModeValue('gray.100', 'gray.800');
 
   return (
     <Box minH="100vh" bg={bg}>
@@ -66,6 +67,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
+        <Route path="/movies/:id" element={<MoviePlayer />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
