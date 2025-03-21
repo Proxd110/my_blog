@@ -34,6 +34,34 @@ function MoviePlayer() {
       categories: ['Fantasía', 'Aventura', 'Familiar'],
       description: 'Edmund, Lucy y su primo Eustace se embarcan en un viaje épico a bordo del Viajero del Alba para encontrar a los siete lores perdidos.',
     },
+    {
+      id: '4',
+      title: 'Krampus',
+      video: 'https://drive.google.com/file/d/1W2b1JZrsvGwZR-A9e0jVRjoNSYIdXEGn/preview',
+      categories: ['Mitología', 'Terror', 'Fantasía', 'Folclore', 'Suspenso'],
+      description: 'Krampus, un ser cornudo y encadenado, recorre tierras heladas con su saco y vara para castigar a los desobedientes.',
+    },
+    {
+      id: '5',
+      title: 'Happy Feet 2',
+      video: 'https://drive.google.com/file/d/1lmVXmD0JIXP48dfiMkT4JkbcXvVH46q6/preview',
+      categories: ['Animada', 'Familiar', 'Musical', 'Aventura', 'Comedia'],
+      description: 'Mumble y su hijo Erik enfrentan un mundo sacudido por fuerzas poderosas mientras buscan unir a las naciones pingüinas para salvar su hogar.',
+    },
+    {
+      id: '6',
+      title: 'Los Increibles 1',
+      video: 'https://drive.google.com/file/d/1ri7LHdrc40jLpUEkpuAlsINTQbzcLw8_/preview',
+      categories: ['Animada', 'Familiar', 'Acción', 'Aventura', 'Superhéroes'],
+      description: 'Bob Parr y su familia de superhéroes ocultan sus poderes, pero una misión los lleva a enfrentar a un villano que amenaza al mundo.',
+    },
+    {
+      id: '7',
+      title: 'Los Increibles 2',
+      video: 'https://drive.google.com/file/d/1SFFQtPsFDl66snNcSEvcZMUVypdpb_gG/preview',
+      categories: ['Animada', 'Familiar', 'Acción', 'Aventura', 'Superhéroes'],
+      description: 'Helen lidera una campaña para traer de vuelta a los superhéroes, mientras Bob cuida a la familia y un nuevo villano surge.',
+    },
   ];
 
   const movie = movies.find((m) => m.id === id);
