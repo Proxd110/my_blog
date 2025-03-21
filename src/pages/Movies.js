@@ -14,7 +14,7 @@ function Movies() {
     {
       id: '1',
       title: 'Las Crónicas de Narnia: El León, la Bruja y el Armario',
-      poster: '/images/Las Cronicas de Narnia 1.jpg', // Nueva ruta
+      poster: 'images/narnia1.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/1l0Gz5C2VTD-2rH9tkgqDI4gFfipvXIJ5/preview',
       categories: ['Fantasía', 'Aventura', 'Familiar'],
       description: 'Cuatro hermanos descubren un mundo mágico detrás de un armario, donde deben enfrentarse a una bruja malvada y cumplir una profecía.',
@@ -22,7 +22,7 @@ function Movies() {
     {
       id: '2',
       title: 'Las Crónicas de Narnia: El Príncipe Caspian',
-      poster: '/images/Las Cronicas de Narnia 2.jpg', // Nueva ruta
+      poster: 'images/narnia2.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/1CDaet1xNM7wRk1STGPcM1edNIhlKxFPn/preview',
       categories: ['Fantasía', 'Aventura', 'Acción'],
       description: 'Los hermanos Pevensie regresan a Narnia para ayudar al Príncipe Caspian a reclamar su trono y restaurar la paz en el reino.',
@@ -30,7 +30,7 @@ function Movies() {
     {
       id: '3',
       title: 'Las Crónicas de Narnia: La Travesía del Viajero del Alba',
-      poster: '/images/Las Cronicas de Narnia 3.jpg', // Nueva ruta
+      poster: 'images/narnia3.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/14Kt73fzNu1x1evfR3VQJFDcAUt8037Yt/preview',
       categories: ['Fantasía', 'Aventura', 'Familiar'],
       description: 'Edmund, Lucy y su primo Eustace se embarcan en un viaje épico a bordo del Viajero del Alba para encontrar a los siete lores perdidos.',
