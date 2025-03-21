@@ -62,6 +62,13 @@ function MoviePlayer() {
       categories: ['Animada', 'Familiar', 'Acción', 'Aventura', 'Superhéroes'],
       description: 'Helen lidera una campaña para traer de vuelta a los superhéroes, mientras Bob cuida a la familia y un nuevo villano surge.',
     },
+    {
+      id: '8',
+      title: 'Turning Red',
+      video: 'https://drive.google.com/file/d/1LweGs0ciX4vQ5X2LjYuJMmgVN4k57CtX/preview',
+      categories: ['Animada', 'Familiar', 'Comedia', 'Fantasía', 'Coming-of-age'],
+      description: 'Mei, una adolescente, se transforma en un panda rojo gigante al emocionarse, mientras lidia con su familia y la pubertad.',
+    },
   ];
 
   const movie = movies.find((m) => m.id === id);
