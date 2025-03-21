@@ -4,10 +4,10 @@ import {
   Box,
   Flex,
   Button,
-  useColorMode,
   Switch,
   Stack,
 } from '@chakra-ui/react';
+import { useColorMode } from '@chakra-ui/color-mode';
 import Home from './pages/Home';
 import Movies from './pages/Movies';
 import About from './pages/About';
