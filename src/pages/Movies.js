@@ -13,43 +13,27 @@ function Movies() {
   const movies = [
     {
       id: '1',
-      title: 'Película 1',
-      poster: 'https://drive.google.com/uc?export=view&id=xxx1', // Reemplaza xxx1 con el ID de la imagen en Google Drive
-      video: 'https://drive.google.com/file/d/xxx1-video/preview', // Reemplaza xxx1-video con el ID del video
-      categories: ['Acción', 'Aventura'],
-      description: 'Una emocionante película de acción y aventura que te mantendrá al borde de tu asiento.',
+      title: 'Las Crónicas de Narnia: El León, la Bruja y el Armario',
+      poster: '/images/Las Cronicas de Narnia 1.jpg', // Nueva ruta
+      video: 'https://drive.google.com/file/d/1l0Gz5C2VTD-2rH9tkgqDI4gFfipvXIJ5/preview',
+      categories: ['Fantasía', 'Aventura', 'Familiar'],
+      description: 'Cuatro hermanos descubren un mundo mágico detrás de un armario, donde deben enfrentarse a una bruja malvada y cumplir una profecía.',
     },
     {
       id: '2',
-      title: 'Película 2',
-      poster: 'https://drive.google.com/uc?export=view&id=xxx2',
-      video: 'https://drive.google.com/file/d/xxx2-video/preview',
-      categories: ['Comedia', 'Romance'],
-      description: 'Una comedia romántica perfecta para una noche relajada.',
+      title: 'Las Crónicas de Narnia: El Príncipe Caspian',
+      poster: '/images/Las Cronicas de Narnia 2.jpg', // Nueva ruta
+      video: 'https://drive.google.com/file/d/1CDaet1xNM7wRk1STGPcM1edNIhlKxFPn/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción'],
+      description: 'Los hermanos Pevensie regresan a Narnia para ayudar al Príncipe Caspian a reclamar su trono y restaurar la paz en el reino.',
     },
     {
       id: '3',
-      title: 'Película 3',
-      poster: 'https://drive.google.com/uc?export=view&id=xxx3',
-      video: 'https://drive.google.com/file/d/xxx3-video/preview',
-      categories: ['Drama', 'Suspenso'],
-      description: 'Un drama intenso con giros inesperados que te sorprenderán.',
-    },
-    {
-      id: '4',
-      title: 'Película 4',
-      poster: 'https://drive.google.com/uc?export=view&id=xxx4',
-      video: 'https://drive.google.com/file/d/xxx4-video/preview',
-      categories: ['Ciencia Ficción', 'Acción'],
-      description: 'Una épica de ciencia ficción con efectos visuales impresionantes.',
-    },
-    {
-      id: '5',
-      title: 'Película 5',
-      poster: 'https://drive.google.com/uc?export=view&id=xxx5',
-      video: 'https://drive.google.com/file/d/xxx5-video/preview',
-      categories: ['Animación', 'Familiar'],
-      description: 'Una película animada ideal para toda la familia.',
+      title: 'Las Crónicas de Narnia: La Travesía del Viajero del Alba',
+      poster: '/images/Las Cronicas de Narnia 3.jpg', // Nueva ruta
+      video: 'https://drive.google.com/file/d/14Kt73fzNu1x1evfR3VQJFDcAUt8037Yt/preview',
+      categories: ['Fantasía', 'Aventura', 'Familiar'],
+      description: 'Edmund, Lucy y su primo Eustace se embarcan en un viaje épico a bordo del Viajero del Alba para encontrar a los siete lores perdidos.',
     },
   ];
 
@@ -68,7 +52,14 @@ function Movies() {
             overflow="hidden"
             _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s' }}
           >
-            <Image src={movie.poster} alt={movie.title} objectFit="cover" h="300px" w="100%" />
+            <Image
+              src={movie.poster}
+              alt={movie.title}
+              objectFit="cover"
+              h="300px"
+              w="100%"
+              fallbackSrc="https://via.placeholder.com/300x450?text=Poster+No+Disponible"
+            />
             <Box p={3}>
               <Text fontSize="lg" fontWeight="bold" color={color} mb={2}>
                 {movie.title}

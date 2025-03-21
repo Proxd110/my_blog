@@ -15,38 +15,24 @@ function MoviePlayer() {
   const movies = [
     {
       id: '1',
-      title: 'Película 1',
-      video: 'https://drive.google.com/file/d/xxx1-video/preview',
-      categories: ['Acción', 'Aventura'],
-      description: 'Una emocionante película de acción y aventura que te mantendrá al borde de tu asiento.',
+      title: 'Las Crónicas de Narnia: El León, la Bruja y el Armario',
+      video: 'https://drive.google.com/file/d/1l0Gz5C2VTD-2rH9tkgqDI4gFfipvXIJ5/preview',
+      categories: ['Fantasía', 'Aventura', 'Familiar'],
+      description: 'Cuatro hermanos descubren un mundo mágico detrás de un armario, donde deben enfrentarse a una bruja malvada y cumplir una profecía.',
     },
     {
       id: '2',
-      title: 'Película 2',
-      video: 'https://drive.google.com/file/d/xxx2-video/preview',
-      categories: ['Comedia', 'Romance'],
-      description: 'Una comedia romántica perfecta para una noche relajada.',
+      title: 'Las Crónicas de Narnia: El Príncipe Caspian',
+      video: 'https://drive.google.com/file/d/1CDaet1xNM7wRk1STGPcM1edNIhlKxFPn/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción'],
+      description: 'Los hermanos Pevensie regresan a Narnia para ayudar al Príncipe Caspian a reclamar su trono y restaurar la paz en el reino.',
     },
     {
       id: '3',
-      title: 'Película 3',
-      video: 'https://drive.google.com/file/d/xxx3-video/preview',
-      categories: ['Drama', 'Suspenso'],
-      description: 'Un drama intenso con giros inesperados que te sorprenderán.',
-    },
-    {
-      id: '4',
-      title: 'Película 4',
-      video: 'https://drive.google.com/file/d/xxx4-video/preview',
-      categories: ['Ciencia Ficción', 'Acción'],
-      description: 'Una épica de ciencia ficción con efectos visuales impresionantes.',
-    },
-    {
-      id: '5',
-      title: 'Película 5',
-      video: 'https://drive.google.com/file/d/xxx5-video/preview',
-      categories: ['Animación', 'Familiar'],
-      description: 'Una película animada ideal para toda la familia.',
+      title: 'Las Crónicas de Narnia: La Travesía del Viajero del Alba',
+      video: 'https://drive.google.com/file/d/14Kt73fzNu1x1evfR3VQJFDcAUt8037Yt/preview',
+      categories: ['Fantasía', 'Aventura', 'Familiar'],
+      description: 'Edmund, Lucy y su primo Eustace se embarcan en un viaje épico a bordo del Viajero del Alba para encontrar a los siete lores perdidos.',
     },
   ];
 
@@ -81,6 +67,7 @@ function MoviePlayer() {
             width="100%"
             height="450px"
             allow="autoplay"
+            allowFullScreen // Agregamos este atributo para habilitar pantalla completa
             title={movie.title}
           />
         </Box>
