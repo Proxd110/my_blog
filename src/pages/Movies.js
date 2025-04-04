@@ -75,6 +75,14 @@ function Movies() {
       categories: ['Animada', 'Familiar', 'Comedia', 'Fantasía', 'Coming-of-age'],
       description: 'Mei, una adolescente, se transforma en un panda rojo gigante al emocionarse, mientras lidia con su familia y la pubertad.',
     },
+    {
+      id: '9',
+      title: 'Trailer Oficial de Minecraft WB',
+      poster: 'images/Minecraft_Trailer.jpg', // Nueva ruta
+      video: 'https://drive.google.com/file/d/1TtvA8tq_IlPng4DPfZt8UCdRUPLAOb28/preview',
+      categories: ['Animada', 'Aventura', 'Fantasía', 'Acción'],
+      description: 'Un grupo de aventureros se embarca en un épico viaje por el mundo de Minecraft para detener al Dragón del End antes de que destruya su hogar.',
+    },
   ];
 
   const bg = useColorModeValue('gray.100', 'gray.800');
