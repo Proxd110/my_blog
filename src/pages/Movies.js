@@ -91,6 +91,14 @@ function Movies() {
       categories: ['Animada', 'Aventura', 'Fantasía', 'Acción'],
       description: 'Un grupo de aventureros se embarca en un épico viaje por el mundo de Minecraft para detener al Dragón del End antes de que destruya su hogar.',
     },
+    {
+      id: '11',
+      title: 'Como entrenar a tu dragón 1',
+      poster: 'images/Como entrenar a tu dragon 1.jpg', // Nueva ruta
+      video: 'https://drive.google.com/file/d/1h2bcF8mjfNNCPSkXHjkD5O25MKw9xCCu/preview',
+      categories: ['Animada', 'Aventura', 'Fantasía', 'Acción'],	
+      description: 'Un joven vikingo llamado Hipo se convierte en el primer humano en domesticar a un dragón, lo que cambia la relación entre humanos y dragones.',
+    },
   ];
 
   const bg = useColorModeValue('gray.100', 'gray.800');
