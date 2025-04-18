@@ -148,6 +148,14 @@ function Movies() {
       categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
       description: 'Harry, Ron y Hermione buscan las reliquias de la muerte mientras huyen de Voldemort y sus seguidores, enfrentando peligros y traiciones.',
     },
+    {
+      id: '18',
+      title: 'Barbie en la princesa y la plebeya',
+      poster: 'images/La princesa y la plebeya.jpg',
+      video: 'https://drive.google.com/file/d/1c_5NWnmDpcKtze-TQr5JxKDADmea14_g/preview',
+      categories: ['Animada', 'Familiar', 'Aventura', 'Comedia', 'Musical'],
+      description: 'Barbie y su amiga se convierten en una princesa y una plebeya, descubriendo la importancia de la amistad y la valentía mientras enfrentan desafíos.',
+    },
   ];
 
   const bg = useColorModeValue('gray.100', 'gray.800');
