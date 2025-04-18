@@ -90,6 +90,34 @@ function MoviePlayer() {
       categories: ['Animada', 'Aventura', 'Fantasía', 'Acción'],
       description: 'Un joven vikingo llamado Hipo se convierte en el primer humano en befriending un dragón, lo que cambia la relación entre humanos y dragones.',
     },
+    {
+      id: '12',
+      title: 'Harry Potter y la piedra filosofal',
+      video: 'https://drive.google.com/file/d/12XsmmuBh2vYkXoKAKSwp-uHVnBX9g9fJ/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry Potter, un niño huérfano, descubre que es un mago y asiste a la Escuela de Magia Hogwarts, donde enfrenta desafíos y hace amigos.',
+    },
+    {
+      id: '13',
+      title: 'Harry Potter y la cámara secreta',
+      video: 'https://drive.google.com/file/d/1BMJS13ZCDV3XkuXkIDIN8g_7OZ_AKkgD/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry Potter regresa a Hogwarts para su segundo año, donde descubre un oscuro secreto y enfrenta a un misterioso enemigo.',
+    },
+    {
+      id: '14',
+      title: 'Harry Potter y el prisionero de Azkaban',
+      video: 'https://drive.google.com/file/d/1LbkmwXesyt9IDvrRUEYqIaKtQQRjh8ns/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry Potter regresa a Hogwarts para su tercer año, donde descubre la verdad sobre su pasado y enfrenta a un peligroso prisionero.',
+    },
+    {
+      id: '15',
+      title: 'Harry Potter y el cáliz de fuego',
+      video: 'https://drive.google.com/file/d/1b-q43sJis7Rt6tcRDxd1CbxNe7pr75M9/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry Potter es inesperadamente seleccionado para participar en el Torneo de los Tres Magos, donde enfrenta peligros mortales y descubre un oscuro complot.',
+    },
   ];
 
   const movie = movies.find((m) => m.id === id);
