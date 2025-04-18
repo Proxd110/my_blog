@@ -8,6 +8,7 @@ import {
   Button,
   useColorModeValue,
 } from '@chakra-ui/react';
+import { desc } from 'framer-motion/client';
 
 function Movies() {
   const movies = [
@@ -77,14 +78,6 @@ function Movies() {
     },
     {
       id: '9',
-      title: 'Trailer Oficial de Minecraft WB',
-      poster: 'images/Minecraft_Trailer.jpg', // Nueva ruta
-      video: 'https://drive.google.com/file/d/1TtvA8tq_IlPng4DPfZt8UCdRUPLAOb28/preview',
-      categories: ['Animada', 'Aventura', 'Fantasía', 'Acción'],
-      description: 'Un grupo de aventureros se embarca en un épico viaje por el mundo de Minecraft para detener al Dragón del End antes de que destruya su hogar.',
-    },
-    {
-      id: '10',
       title: 'Minecraft la película WB',
       poster: 'images/minecraft la pelicula.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/1_cXqXG1HFNeGDdW7gyRsETTJ6yOW575w/preview',
@@ -92,7 +85,7 @@ function Movies() {
       description: 'Un grupo de aventureros se embarca en un épico viaje por el mundo de Minecraft para detener al Dragón del End antes de que destruya su hogar.',
     },
     {
-      id: '11',
+      id: '10',
       title: 'Como entrenar a tu dragón 1',
       poster: 'images/Como entrenar a tu dragon 1.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/1h2bcF8mjfNNCPSkXHjkD5O25MKw9xCCu/preview',
@@ -100,7 +93,7 @@ function Movies() {
       description: 'Un joven vikingo llamado Hipo se convierte en el primer humano en domesticar a un dragón, lo que cambia la relación entre humanos y dragones.',
     },
     {
-      id: '12',
+      id: '11',
       title: 'Harry Potter y la piedra filosofal',
       poster: 'images/Harry Potter y la camara filosofal.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/12XsmmuBh2vYkXoKAKSwp-uHVnBX9g9fJ/preview',
@@ -108,7 +101,7 @@ function Movies() {
       description: 'Harry Potter, un niño huérfano, descubre que es un mago y asiste a la Escuela de Magia Hogwarts, donde enfrenta desafíos y hace amigos.',
     },
     {
-      id: '13',
+      id: '12',
       title: 'Harry Potter y la cámara secreta',
       poster: 'images/Harry Potter y la camara secreta.jpg', // Nueva ruta
       video: 'https://drive.google.com/file/d/1BMJS13ZCDV3XkuXkIDIN8g_7OZ_AKkgD/preview',
@@ -116,7 +109,7 @@ function Movies() {
       description: 'Harry Potter regresa a Hogwarts para su segundo año, donde descubre un oscuro secreto y enfrenta a un misterioso enemigo.',
     },
     {
-      id: '14',
+      id: '13',
       title: 'Harry Potter y el prisionero de Azkaban',
       poster: 'images/Harry Potter y el prisionero de Azkabán.jpg',
       video: 'https://drive.google.com/file/d/1LbkmwXesyt9IDvrRUEYqIaKtQQRjh8ns/preview',
@@ -124,12 +117,20 @@ function Movies() {
       description: 'Harry Potter regresa a Hogwarts para su tercer año, donde descubre la verdad sobre su pasado y enfrenta a un peligroso prisionero.',
     },
     {
-      id: '15',
+      id: '14',
       title: 'Harry Potter y el cáliz de fuego',
       poster: 'images/Harry Potter y el cáliz de fuego.jpg',
       video: 'https://drive.google.com/file/d/1b-q43sJis7Rt6tcRDxd1CbxNe7pr75M9/preview',
       categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
       description: 'Harry Potter es inesperadamente seleccionado para participar en el Torneo de los Tres Magos, donde enfrenta peligros mortales y descubre un oscuro complot.',
+    },
+    {
+      id: '15',
+      title: 'Harry Potter y la orden del fénix',
+      poster: 'images/Harry Potter y la orden del fénix.jpg',
+      video: 'https://drive.google.com/file/d/1aE7dzeuhqx7IfJK9hfjE59ZFJ2H1qnQJ/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry Potter y sus amigos forman un grupo secreto para luchar contra el regreso de Voldemort y la opresión del Ministerio de Magia.',
     },
   ];
 
