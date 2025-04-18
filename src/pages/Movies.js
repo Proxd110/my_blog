@@ -132,6 +132,22 @@ function Movies() {
       categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
       description: 'Harry Potter y sus amigos forman un grupo secreto para luchar contra el regreso de Voldemort y la opresión del Ministerio de Magia.',
     },
+    {
+      id: '16',
+      title: 'Harry Potter y las reliquias de la muerte 1',
+      poster: 'images/Harry Potter y las reliquias de la muerte parte 1.jpg',
+      video: 'https://drive.google.com/file/d/1UaV4ZCeMuIwpThNZICYxOcSs39eyIgGM/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry, Ron y Hermione buscan las reliquias de la muerte mientras huyen de Voldemort y sus seguidores, enfrentando peligros y traiciones.',
+    },
+    {
+      id: '17',
+      title: 'Harry Potter y las reliquias de la muerte 2',
+      poster: 'images/Harry Potter y las reliquias de la muerte parte 2.jpg',
+      video: 'https://drive.google.com/file/d/1DiroUXwqRux4twyVkiiK4q5t7EEn3DeK/preview',
+      categories: ['Fantasía', 'Aventura', 'Acción', 'Magia'],
+      description: 'Harry, Ron y Hermione buscan las reliquias de la muerte mientras huyen de Voldemort y sus seguidores, enfrentando peligros y traiciones.',
+    },
   ];
 
   const bg = useColorModeValue('gray.100', 'gray.800');
