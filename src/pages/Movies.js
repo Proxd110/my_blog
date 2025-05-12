@@ -108,6 +108,14 @@ function Movies() {
       categories: ['Comedia', 'Romántica'],
       description: 'Norbit, un hombre tímido y maltratado, se encuentra atrapado en un matrimonio con una mujer dominante. Su vida da un giro inesperado cuando se reencuentra con su amor de la infancia, Kate.',
     },
+    {
+      id: '13',
+      title: 'Nosferatu',
+      poster: 'images/Nosferatu.jpg',
+      video: 'https://drive.google.com/file/d/1RMk1tM8JfusiujK3cTVRGRVdgFgYpv7P/preview',
+      categories: ['Terror', 'Clásico'],
+      description: 'Un joven agente inmobiliario viaja a Transilvania para cerrar un trato con el misterioso conde Orlok, solo para descubrir que es un vampiro sediento de sangre. La historia se desarrolla en un ambiente gótico y sombrío, con imágenes icónicas que han influido en el cine de terror.',
+    }
   ];
 
   const bg = useColorModeValue('gray.100', 'gray.800');
