@@ -103,6 +103,13 @@ function MoviePlayer() {
       video: 'https://drive.google.com/file/d/1RMk1tM8JfusiujK3cTVRGRVdgFgYpv7P/preview',
       categories: ['Terror', 'Clásico'],
       description: 'Un joven agente inmobiliario viaja a Transilvania para cerrar un trato con el misterioso conde Orlok, solo para descubrir que es un vampiro sediento de sangre. La historia se desarrolla en un ambiente gótico y sombrío, con imágenes icónicas que han influido en el cine de terror.',
+    },
+    {
+      id: '14',
+      title: 'Lilo Y Stitch la película',
+      video: 'https://drive.google.com/file/d/1J_LLyHcwmLpNLK6QIxPt80suErBEiM-H/preview',
+      categories: ['Familiar', 'Aventura', 'Comedia'],
+      description: 'Lilo, una niña hawaiana, adopta a Stitch, un experimento alienígena fugitivo. Juntos, enfrentan desafíos y aprenden sobre la familia y la amistad en un viaje lleno de aventuras.',
     }
   ];
 
