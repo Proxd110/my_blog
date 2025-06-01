@@ -14,7 +14,7 @@ import {
 function InfinityTrain() {
   const series = {
     title: 'Infinity Train',
-    poster: 'images/Infinity Train.jpg',
+    poster: '../images/Infinity Train.jpg',
     description: 'Una serie animada que sigue a varios personajes mientras navegan por un tren infinito lleno de mundos únicos, resolviendo misterios y enfrentando desafíos personales.',
     seasons: [
       { id: '1', title: 'Temporada 1', path: '/series/infinity_train/t1' },
