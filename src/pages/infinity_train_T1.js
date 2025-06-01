@@ -12,7 +12,7 @@ import {
 
 function InfinityTrainT1() {
   const episodes = [
-    { id: '1', title: 'Episodio 1', video: 'https://drive.google.com/file/d/1kJBg-eqY2I9EAo1V8qIf4ljMhrhx8AAN/preview' },
+    { id: '1', title: 'Episodio 1', video: 'https://drive.google.com/file/d/15u4j53pkuguilQwSYu8_T4Z443BLfyWt/preview' },
     { id: '2', title: 'Episodio 2', video: 'https://drive.google.com/file/d/placeholder/preview' },
     { id: '3', title: 'Episodio 3', video: 'https://drive.google.com/file/d/placeholder/preview' },
     { id: '4', title: 'Episodio 4', video: 'https://drive.google.com/file/d/placeholder/preview' },

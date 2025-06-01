@@ -12,16 +12,16 @@ import {
 
 function InfinityTrainT3() {
   const episodes = [
-    { id: '1', title: 'Episodio 1', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '2', title: 'Episodio 2', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '3', title: 'Episodio 3', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '4', title: 'Episodio 4', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '5', title: 'Episodio 5', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '6', title: 'Episodio 6', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '7', title: 'Episodio 7', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '8', title: 'EpisodioGrid', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '9', title: 'Episodio 9', video: 'https://drive.google.com/file/d/placeholder/preview' },
-    { id: '10', title: 'Episodio 10', video: 'https://drive.google.com/file/d/placeholder/preview' },
+    { id: '1', title: 'Episodio 1', video: 'https://drive.google.com/file/d/12rLSNAxxYaP6rwHBCAiNv50hC0gwgIB_/preview' },
+    { id: '2', title: 'Episodio 2', video: 'https://drive.google.com/file/d/1QuCpfqthSq2lehsu0tLZh_tL8HVb25IG/preview' },
+    { id: '3', title: 'Episodio 3', video: 'https://drive.google.com/file/d/1FkNFqMr_z_pqvUAZw5QVVJgNYcs-uAjt/preview' },
+    { id: '4', title: 'Episodio 4', video: 'https://drive.google.com/file/d/1Qvfbml-tAt3Mj2vKSYdhewo4np25Skha/preview' },
+    { id: '5', title: 'Episodio 5', video: 'https://drive.google.com/file/d/1Ls2MDREMrfzwsrtrJJjTJ1kO03pUkGHW/preview' },
+    { id: '6', title: 'Episodio 6', video: 'https://drive.google.com/file/d/1XD-AT-lT7uDGqsM2C3HsRHYR0IFS6H3z/preview' },
+    { id: '7', title: 'Episodio 7', video: 'https://drive.google.com/file/d/1uqSr_2EY8_dP77gamgkrMmSFhTK326D9/preview' },
+    { id: '8', title: 'Episodio 8', video: 'https://drive.google.com/file/d/1oJoei2PP3ElIQCEseH8DeYM_0oUccF3U/preview' },
+    { id: '9', title: 'Episodio 9', video: 'https://drive.google.com/file/d/1vASMCSUc9epeEjNnP6zufZ5jmecQ0vM_/preview' },
+    { id: '10', title: 'Episodio 10', video: 'https://drive.google.com/file/d/1csMndkMmqOn_oKgktn-gjKPQgrNC-7aS/preview' },
   ];
 
   const { episodeId = '1' } = useParams();
