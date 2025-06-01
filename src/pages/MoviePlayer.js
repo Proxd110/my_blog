@@ -51,14 +51,14 @@ function MoviePlayer() {
     {
       id: '6',
       title: 'Los Increibles 1',
-      video: 'https://drive.google.com/file/d/1ri7LHdrc40jLpUEkpuAlsINTQbzcLw8_/preview',
+      video: 'https://drive.google.com/file/d/1YeXnWGtS4avqZwi4J-S73BTonPmObFAG/preview',
       categories: ['Animada', 'Familiar', 'Acción', 'Aventura', 'Superhéroes'],
       description: 'Bob Parr y su familia de superhéroes ocultan sus poderes, pero una misión los lleva a enfrentar a un villano que amenaza al mundo.',
     },
     {
       id: '7',
       title: 'Los Increibles 2',
-      video: 'https://drive.google.com/file/d/1SFFQtPsFDl66snNcSEvcZMUVypdpb_gG/preview',
+      video: 'https://drive.google.com/file/d/1mjVARRRShynH53M5HzwVVDMxbsEa9P6P/preview',
       categories: ['Animada', 'Familiar', 'Acción', 'Aventura', 'Superhéroes'],
       description: 'Helen lidera una campaña para traer de vuelta a los superhéroes, mientras Bob cuida a la familia y un nuevo villano surge.',
     },
