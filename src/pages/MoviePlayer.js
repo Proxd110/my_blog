@@ -65,7 +65,7 @@ function MoviePlayer() {
     {
       id: '8',
       title: 'Turning Red',
-      video: 'https://drive.google.com/file/d/1LweGs0ciX4vQ5X2LjYuJMmgVN4k57CtX/preview',
+      video: 'https://drive.google.com/file/d/1Adop2Sx5IsK1mFeokdUC4KVR0090tnzJ/preview',
       categories: ['Animada', 'Familiar', 'Comedia', 'Fantasía', 'Coming-of-age'],
       description: 'Mei, una adolescente, se transforma en un panda rojo gigante al emocionarse, mientras lidia con su familia y la pubertad.',
     },
