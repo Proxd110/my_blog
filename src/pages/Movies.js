@@ -80,7 +80,7 @@ function Movies() {
       id: '9',
       title: 'Minecraft la película WB',
       poster: 'images/minecraft la pelicula.jpg', // Nueva ruta
-      video: 'https://drive.google.com/file/d/1_cXqXG1HFNeGDdW7gyRsETTJ6yOW575w/preview',
+      video: 'https://drive.google.com/file/d/1QDhSPb7CFHXSPRaDKgoowgCDOkC3kSs7/preview',
       categories: ['Animada', 'Aventura', 'Fantasía', 'Acción'],
       description: 'Un grupo de aventureros se embarca en un épico viaje por el mundo de Minecraft para detener al Dragón del End antes de que destruya su hogar.',
     },
