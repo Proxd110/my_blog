@@ -10,18 +10,14 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 
-function InfinityTrainT3() {
+function ElCircoDigitalT1() {
   const episodes = [
-    { id: '1', title: 'Episodio 1 (El vagón musical)', video: 'https://drive.google.com/file/d/1IftC-a_ophrMrhhMk4udjJicaGGeYPeQ/preview' },
-    { id: '2', title: 'Episodio 2 (El vagón de la jungla)', video: 'https://drive.google.com/file/d/1u2OVSxQAoTidfd-2ywew0wZ18yB13Nrl/preview' },
-    { id: '3', title: 'Episodio 3 (El vagón del baile de debutantes)', video: 'https://drive.google.com/file/d/10GIV-a7q4i5MddSPWRtN7sfGdvoV14vW/preview' },
-    { id: '4', title: 'Episodio 4 (El vagón del chalet Le Chat)', video: 'https://drive.google.com/file/d/1qMnlGFWdnLCa596msxo3EGSXR_wY74g9/preview' },
-    { id: '5', title: 'Episodio 5 (El vagón del reloj de colores)', video: 'https://drive.google.com/file/d/1S_zQ8UCqYUoQLGdYMbDko5us79lbhou3/preview' },
-    { id: '6', title: 'Episodio 6 (El vagón de la fogata)', video: 'https://drive.google.com/file/d/1V3JcX_s2pgGFJkJVHU--QBOIagRvSFi8/preview' },
-    { id: '7', title: 'Episodio 7 (El vagón del cañón de serpientes aladas doradas)', video: 'https://drive.google.com/file/d/1pA2HzoQuXMTRObI5kBsWODktgmdxUgrM/preview' },
-    { id: '8', title: 'Episodio 8 (El vagón Hey-Ho-Whoa)', video: 'https://drive.google.com/file/d/1Ur1nhK7QbyH2wthVQHdtAl9I6y6-8Xp8/preview' },
-    { id: '9', title: 'Episodio 9 (El vagón del origami)', video: 'https://drive.google.com/file/d/1I0tQbXVEpieieliZCMohneokGxWeemJ6/preview' },
-    { id: '10', title: 'Episodio 10 (La nueva Cima)', video: 'https://drive.google.com/file/d/1sVTUXNjeVvFb8xgnu9ogHAK3epNBphJU/preview' },
+    { id: '1', title: 'El increible circo digital: Episodio 1 (Piloto)', video: 'https://drive.google.com/file/d/1OU51FV0gTGUH5PBtdn0opkWIMb0e0Oi0/preview' },
+    { id: '2', title: 'El increible circo digital: POMNI DESPIERTA, HORA DE IR A LA AVENTURA', video: 'https://drive.google.com/file/d/1hGCMUJpLMRkAT9HUohUCtQEHXty2UG_d/preview' },
+    { id: '3', title: 'El increible circo digital: Episodio 2 (¡Caos en los transportadores de dulces!)', video: 'https://drive.google.com/file/d/1Kt-y93cwIdPDgO4gT_wNMYWylbfrHQJo/preview' },
+    { id: '4', title: 'El increible circo digital: Episodio 3 (El misterio de la Mansión Mildenhall)', video: 'https://drive.google.com/file/d/1KeTtlcPEBl4DViLYa04HK7vM8pmSY_xO/preview' },
+    { id: '5', title: 'El increible circo digital: Episodio 4 (Mascarada de comida rápida)', video: 'https://drive.google.com/file/d/1etoOfJXu-gXtP47V1VPgnfPxM5xfiWQh/preview' },
+    { id: '6', title: 'El increible circo digital: Episodio 5 (Sin título)', video: 'https://drive.google.com/file/d/1NCxt4FunSmSNM1b2Z0FuO1Be-pLJD-wm/preview' },
   ];
 
   const { episodeId = '1' } = useParams();
@@ -37,7 +33,7 @@ function InfinityTrainT3() {
   return (
     <Box p={4} bg={bg} color={color} minH="calc(100vh - 64px)">
       <VStack spacing={4} align="start">
-        <Heading as="h1">Infinity Train - Temporada 3 - Culto al Maquinista</Heading>
+        <Heading as="h1">El Increíble Mundo de Gumball - Temporada 1</Heading>
         <Text>{episode.title}</Text>
         <Box w="100%" maxW="800px">
           <iframe
@@ -53,7 +49,7 @@ function InfinityTrainT3() {
           {prevEpisode && (
             <Button
               as={Link}
-              to={`/series/infinity_train/t3/${prevEpisode.id}`}
+              to={`/series/el_circo_digital/t1/${prevEpisode.id}`}
               colorScheme="teal"
               variant="outline"
             >
@@ -63,7 +59,7 @@ function InfinityTrainT3() {
           {nextEpisode && (
             <Button
               as={Link}
-              to={`/series/infinity_train/t3/${nextEpisode.id}`}
+              to={`/series/el_circo_digital/t1/${nextEpisode.id}`}
               colorScheme="teal"
               variant="outline"
             >
@@ -77,7 +73,7 @@ function InfinityTrainT3() {
             <Button
               key={ep.id}
               as={Link}
-              to={`/series/infinity_train/t3/${ep.id}`}
+              to={`/series/el_circo_digital/t1/${ep.id}`}
               colorScheme="teal"
               variant={ep.id === episodeId ? 'solid' : 'ghost'}
               w="100%"
@@ -92,4 +88,4 @@ function InfinityTrainT3() {
   );
 }
 
-export default InfinityTrainT3;
+export default ElCircoDigitalT1;

@@ -23,6 +23,26 @@ import InfinityTrainT1 from './pages/infinity_train_T1';
 import InfinityTrainT2 from './pages/infinity_train_T2';
 import InfinityTrainT3 from './pages/infinity_train_T3';
 import InfinityTrainT4 from './pages/infinity_train_T4';
+import HoraDeAventura from './pages/hora_de_aventura';
+import HoraDeAventuraT1 from './pages/hora_de_aventura_T1';
+import HoraDeAventuraT2 from './pages/hora_de_aventura_T2';
+import HoraDeAventuraT3 from './pages/hora_de_aventura_T3';
+import HoraDeAventuraT4 from './pages/hora_de_aventura_T4';
+import HoraDeAventuraT5 from './pages/hora_de_aventura_T5';
+import HoraDeAventuraT6 from './pages/hora_de_aventura_T6';
+import HoraDeAventuraT7 from './pages/hora_de_aventura_T7';
+import HoraDeAventuraT8 from './pages/hora_de_aventura_T8';
+import HoraDeAventuraT9 from './pages/hora_de_aventura_T9';
+import HoraDeAventuraT10 from './pages/hora_de_aventura_T10';
+import ElIncreibleMundoDeGumball from './pages/el_increible_mundo_de_gumball';
+import ElIncreibleMundoDeGumballT1 from './pages/el_increible_mundo_de_gumball_T1';
+import ElIncreibleMundoDeGumballT2 from './pages/el_increible_mundo_de_gumball_T2';
+import ElIncreibleMundoDeGumballT3 from './pages/el_increible_mundo_de_gumball_T3';
+import ElIncreibleMundoDeGumballT4 from './pages/el_increible_mundo_de_gumball_T4';
+import ElIncreibleMundoDeGumballT5 from './pages/el_increible_mundo_de_gumball_T5';
+import ElIncreibleMundoDeGumballT6 from './pages/el_increible_mundo_de_gumball_T6';
+import ElCircoDigital from './pages/el_circo_digital';
+import ElCircoDigitalT1 from './pages/el_circo_digital_T1';
 
 function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -138,6 +158,26 @@ function App() {
         <Route path="/series/infinity_train/t2/:episodeId?" element={<InfinityTrainT2 />} />
         <Route path="/series/infinity_train/t3/:episodeId?" element={<InfinityTrainT3 />} />
         <Route path="/series/infinity_train/t4/:episodeId?" element={<InfinityTrainT4 />} />
+        <Route path="/series/hora_de_aventura" element={<HoraDeAventura />} />
+        <Route path="/series/hora_de_aventura/t1/:episodeId?" element={<HoraDeAventuraT1 />} />
+        <Route path="/series/hora_de_aventura/t2/:episodeId?" element={<HoraDeAventuraT2 />} />
+        <Route path="/series/hora_de_aventura/t3/:episodeId?" element={<HoraDeAventuraT3 />} />
+        <Route path="/series/hora_de_aventura/t4/:episodeId?" element={<HoraDeAventuraT4 />} />
+        <Route path="/series/hora_de_aventura/t5/:episodeId?" element={<HoraDeAventuraT5 />} />
+        <Route path="/series/hora_de_aventura/t6/:episodeId?" element={<HoraDeAventuraT6 />} />
+        <Route path="/series/hora_de_aventura/t7/:episodeId?" element={<HoraDeAventuraT7 />} />
+        <Route path="/series/hora_de_aventura/t8/:episodeId?" element={<HoraDeAventuraT8 />} />
+        <Route path="/series/hora_de_aventura/t9/:episodeId?" element={<HoraDeAventuraT9 />} />
+        <Route path="/series/hora_de_aventura/t10/:episodeId?" element={<HoraDeAventuraT10 />} />
+        <Route path="/series/el_increible_mundo_de_gumball" element={<ElIncreibleMundoDeGumball />} />
+        <Route path="/series/el_increible_mundo_de_gumball/t1/:episodeId?" element={<ElIncreibleMundoDeGumballT1 />} />
+        <Route path="/series/el_increible_mundo_de_gumball/t2/:episodeId?" element={<ElIncreibleMundoDeGumballT2 />} />
+        <Route path="/series/el_increible_mundo_de_gumball/t3/:episodeId?" element={<ElIncreibleMundoDeGumballT3 />} />
+        <Route path="/series/el_increible_mundo_de_gumball/t4/:episodeId?" element={<ElIncreibleMundoDeGumballT4 />} />
+        <Route path="/series/el_increible_mundo_de_gumball/t5/:episodeId?" element={<ElIncreibleMundoDeGumballT5 />} />
+        <Route path="/series/el_increible_mundo_de_gumball/t6/:episodeId?" element={<ElIncreibleMundoDeGumballT6 />} />
+        <Route path="/series/el_circo_digital" element={<ElCircoDigital />} />
+        <Route path="/series/el_circo_digital/t1/:episodeId?" element={<ElCircoDigitalT1 />} />
       </Routes>
     </Box>
   );
