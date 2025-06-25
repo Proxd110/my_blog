@@ -14,7 +14,7 @@ import {
 function HoraDeAventura() {
   const series = {
     title: 'Hora de Aventura',
-    poster: '../images/Hora de Aventura.jpg',
+    poster: '../images/Hora de aventura.jpg',
     description: 'Las aventuras de Finn, un niño humano, y Jake, su mejor amigo perro con poderes mágicos, en el post-apocalíptico Reino de Ooo.',
     seasons: [
       { id: '1', title: 'Temporada 1', path: '/series/hora_de_aventura/t1' },

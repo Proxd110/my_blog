@@ -22,7 +22,7 @@ function Series() {
     {
       id: '2',
       title: 'Hora de Aventura',
-      poster: 'images/Hora de Aventura.jpg',
+      poster: 'images/Hora de aventura.jpg',
       details: '/series/hora_de_aventura',
       categories: ['Animada', 'Aventura', 'Comedia', 'Fantasía'],
       description: 'Las aventuras de Finn, un niño humano, y Jake, su mejor amigo perro con poderes mágicos, en el post-apocalíptico Reino de Ooo.',
