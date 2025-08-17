@@ -18,6 +18,7 @@ function ElCircoDigitalT1() {
     { id: '4', title: 'El increible circo digital: Episodio 3 (El misterio de la Mansión Mildenhall)', video: 'https://drive.google.com/file/d/1KeTtlcPEBl4DViLYa04HK7vM8pmSY_xO/preview' },
     { id: '5', title: 'El increible circo digital: Episodio 4 (Mascarada de comida rápida)', video: 'https://drive.google.com/file/d/1etoOfJXu-gXtP47V1VPgnfPxM5xfiWQh/preview' },
     { id: '6', title: 'El increible circo digital: Episodio 5 (Sin título)', video: 'https://drive.google.com/file/d/1NCxt4FunSmSNM1b2Z0FuO1Be-pLJD-wm/preview' },
+    { id: '7', title: 'El increible circo digital: Episodio 6 (Todos tienen armas)', video: 'https://drive.google.com/file/d/1xGick0FzxOtKGjQuCY3Hxzv4jyfDyH4R/preview' },
   ];
 
   const { episodeId = '1' } = useParams();
