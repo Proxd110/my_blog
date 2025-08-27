@@ -12,16 +12,16 @@ import {
 
 function InfinityTrainT2() {
   const episodes = [
-    { id: '1', title: 'Episodio 1 (El vagón del mercado negro)', video: 'https://drive.google.com/file/d/14tU4IVyuiKjzF08n9WUwgBbiL1CkFDay/preview' },
-    { id: '2', title: 'Episodio 2 (El vagón del árbol genealógico)', video: 'https://drive.google.com/file/d/1aSTnive9fdXqOY_yqs3Iw6Vndu5UKaJf/preview' },
-    { id: '3', title: 'Episodio 3 (El vagón del mapa)', video: 'https://drive.google.com/file/d/1z-6-J8u03XTAK7vRQccnBXSfWRTA7Uyg/preview' },
-    { id: '4', title: 'Episodio 4 (El vagón del sapo)', video: 'https://drive.google.com/file/d/1wh5Be1CWi7dQWY_6HMvE_4xcqNG7Kab2/preview' },
-    { id: '5', title: 'Episodio 5 (El vagón del parásito)', video: 'https://drive.google.com/file/d/1bHYB5uObkgViRePAfu3d8nxATk23h5GY/preview' },
-    { id: '6', title: 'Episodio 6 (El vagón del gato de la suerte)', video: 'https://drive.google.com/file/d/1iyInoo04WvfRqGy7a_qW_cP6hEbD6vM8/preview' },
-    { id: '7', title: 'Episodio 7 (El vagón del centro comercial)', video: 'https://drive.google.com/file/d/14gGOwKa-xgz7sMGaFTOk1u_oJipzxzak/preview' },
-    { id: '8', title: 'Episodio 8 (El páramo)', video: 'https://drive.google.com/file/d/14UE5qwqTfmcttH7ZFjJopr_hT_X5R2t6/preview' },
-    { id: '9', title: 'Episodio 9 (El vagón de la cinta)', video: 'https://drive.google.com/file/d/1xkiBEskIKqPw038FxxuKxKa7gkJMPmId/preview' },
-    { id: '10', title: 'Episodio 10 (El vagón del número)', video: 'https://drive.google.com/file/d/1fq_-2mJJqvEv2mh3XHYsCCrm_CJAl58s/preview' },
+    { id: '1', title: 'Episodio 1 (El vagón del mercado negro)', video: 'https://drive.google.com/file/d/1RYo8qiczzr8wG0nnFVbslGNyyzbb1XKq/preview' },
+    { id: '2', title: 'Episodio 2 (El vagón del árbol genealógico)', video: 'https://drive.google.com/file/d/1RbmXQCKgdGKKkbPJp6NKnSw3y_nThuG5/preview' },
+    { id: '3', title: 'Episodio 3 (El vagón del mapa)', video: 'https://drive.google.com/file/d/1Yk_IK7fhvlp6hJEG1HCsS_aAWRKSXl4b/preview' },
+    { id: '4', title: 'Episodio 4 (El vagón del sapo)', video: 'https://drive.google.com/file/d/1uByY4Tn_b4j1Yol5TpNBIqd_1B8YyVnn/preview' },
+    { id: '5', title: 'Episodio 5 (El vagón del parásito)', video: 'https://drive.google.com/file/d/1RdLy803uPqAtKIYn_Ss4dEAqJM2rEXuq/preview' },
+    { id: '6', title: 'Episodio 6 (El vagón del gato de la suerte)', video: 'https://drive.google.com/file/d/10JWiumeET6GFGwFXr3tPc5x6EC4Q9Oqa/preview' },
+    { id: '7', title: 'Episodio 7 (El vagón del centro comercial)', video: 'https://drive.google.com/file/d/1EvCe_uAUI5HzE6BhzcwjC27AeCZcrpM8/preview' },
+    { id: '8', title: 'Episodio 8 (El páramo)', video: 'https://drive.google.com/file/d/1MlnFKQLjHHaLhWEfVK4y4UG3Yq46Ix61/preview' },
+    { id: '9', title: 'Episodio 9 (El vagón de la cinta)', video: 'https://drive.google.com/file/d/1s5GWI4LvQT2Ot4BVkLgQybCv6h_GhV9A/preview' },
+    { id: '10', title: 'Episodio 10 (El vagón del número)', video: 'https://drive.google.com/file/d/10gGkWDggdFfUXLJCM-X-LBRNe55lJOKV/preview' },
   ];
 
   const { episodeId = '1' } = useParams();

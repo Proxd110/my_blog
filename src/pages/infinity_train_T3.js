@@ -12,16 +12,16 @@ import {
 
 function InfinityTrainT3() {
   const episodes = [
-    { id: '1', title: 'Episodio 1 (El vagón musical)', video: 'https://drive.google.com/file/d/1IftC-a_ophrMrhhMk4udjJicaGGeYPeQ/preview' },
-    { id: '2', title: 'Episodio 2 (El vagón de la jungla)', video: 'https://drive.google.com/file/d/1u2OVSxQAoTidfd-2ywew0wZ18yB13Nrl/preview' },
-    { id: '3', title: 'Episodio 3 (El vagón del baile de debutantes)', video: 'https://drive.google.com/file/d/10GIV-a7q4i5MddSPWRtN7sfGdvoV14vW/preview' },
-    { id: '4', title: 'Episodio 4 (El vagón del chalet Le Chat)', video: 'https://drive.google.com/file/d/1qMnlGFWdnLCa596msxo3EGSXR_wY74g9/preview' },
-    { id: '5', title: 'Episodio 5 (El vagón del reloj de colores)', video: 'https://drive.google.com/file/d/1S_zQ8UCqYUoQLGdYMbDko5us79lbhou3/preview' },
-    { id: '6', title: 'Episodio 6 (El vagón de la fogata)', video: 'https://drive.google.com/file/d/1V3JcX_s2pgGFJkJVHU--QBOIagRvSFi8/preview' },
-    { id: '7', title: 'Episodio 7 (El vagón del cañón de serpientes aladas doradas)', video: 'https://drive.google.com/file/d/1pA2HzoQuXMTRObI5kBsWODktgmdxUgrM/preview' },
-    { id: '8', title: 'Episodio 8 (El vagón Hey-Ho-Whoa)', video: 'https://drive.google.com/file/d/1Ur1nhK7QbyH2wthVQHdtAl9I6y6-8Xp8/preview' },
-    { id: '9', title: 'Episodio 9 (El vagón del origami)', video: 'https://drive.google.com/file/d/1I0tQbXVEpieieliZCMohneokGxWeemJ6/preview' },
-    { id: '10', title: 'Episodio 10 (La nueva Cima)', video: 'https://drive.google.com/file/d/1sVTUXNjeVvFb8xgnu9ogHAK3epNBphJU/preview' },
+    { id: '1', title: 'Episodio 1 (El vagón musical)', video: 'https://drive.google.com/file/d/1gR3RToJq-kJAiJtFenGBPSlCg8GqpzN-/preview' },
+    { id: '2', title: 'Episodio 2 (El vagón de la jungla)', video: 'https://drive.google.com/file/d/1GxWuiOxB-uvFHGlAM7C94SIsPX1i20L-/preview' },
+    { id: '3', title: 'Episodio 3 (El vagón del baile de debutantes)', video: 'https://drive.google.com/file/d/1QbvJ8yQOg5AkrTuEx13WbIYw5RTJfYn8/preview' },
+    { id: '4', title: 'Episodio 4 (El vagón del chalet Le Chat)', video: 'https://drive.google.com/file/d/16MHzyQf3r7-seYE_f_y_1bhI2Vq-xUln/preview' },
+    { id: '5', title: 'Episodio 5 (El vagón del reloj de colores)', video: 'https://drive.google.com/file/d/12kEKX-njolg0QdPmk4ZmTdx6Gp3FqvnU/preview' },
+    { id: '6', title: 'Episodio 6 (El vagón de la fogata)', video: 'https://drive.google.com/file/d/1OdcUcC-zJjDUMkdTSe7NFPZH5wI2zsPH/preview' },
+    { id: '7', title: 'Episodio 7 (El vagón del cañón de serpientes aladas doradas)', video: 'https://drive.google.com/file/d/1d59SdnBqASZXXaohhZGiFL5nC-Y9tJg4/preview' },
+    { id: '8', title: 'Episodio 8 (El vagón Hey-Ho-Whoa)', video: 'https://drive.google.com/file/d/13GBpO_PNLUL5HUdLaOT2ZBCDhb-Fphdl/preview' },
+    { id: '9', title: 'Episodio 9 (El vagón del origami)', video: 'https://drive.google.com/file/d/1Bw60zKrXzI_J5S7EiVxgFsTp_F3S7NQ3/preview' },
+    { id: '10', title: 'Episodio 10 (La nueva Cima)', video: 'https://drive.google.com/file/d/1q6TcE1pzOmbPqGhwc3aj21SuUbOGn1WP/preview' },
   ];
 
   const { episodeId = '1' } = useParams();
