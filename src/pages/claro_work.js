@@ -22,7 +22,7 @@ function ClaroWork() {
   // === DATOS POR SEMANA (EDITA AQUÍ) ===
   const ventasPorSemana = [
     {
-      semana: "Semana 1: 18-24 Oct 2025",
+      semana: "Semana 1: 18 Oct 2025 - ",
       dias: [
         {
           fecha: "18/10/2025",
@@ -30,6 +30,11 @@ function ClaroWork() {
           tdi1_recargas: 1, tdi2_recargas: 0, tdi3_recargas: 1, tdi4_recargas: 0, tdi5_recargas: 0,
           baucher: "bauchersClaro/Deposito_Claro_18_10.jpeg"
         },
+      ]
+    },
+    {
+      semana: "Semana 2: 20-25 Oct 2025",
+      dias: [
         {
           fecha: "20/10/2025",
           tdi1_chips: 0, tdi2_chips: 3, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0,
@@ -66,6 +71,11 @@ function ClaroWork() {
           tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0,
           baucher: "bauchersClaro/Deposito_Claro_25_10.jpeg"
         },
+      ]
+    },
+    {
+      semana: "Semana 2: 27 Oct - 1 Nov 2025",
+      dias: [
         {
           fecha: "27/10/2025",
           tdi1_chips: 1, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0,
@@ -82,17 +92,10 @@ function ClaroWork() {
           fecha: "29/10/2025",
           tdi1_chips: 2, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0,
           tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0,
-          baucher: "bauchersClaro/Deposito_Claro_29_10.jpeg"
-        },
-        {
-          fecha: "/10/2025",
-          tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0,
-          tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0,
-          baucher: "bauchersClaro/"
+          baucher: "bauchersClaro/Deposito_Claro_18_10.jpeg"
         },
       ]
     },
-    // Agrega más semanas aquí...
   ];
 
   const precios = { tdi1: 60, tdi2: 85, tdi3: 110, tdi4: 200, tdi5: 300 };
