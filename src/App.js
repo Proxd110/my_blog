@@ -43,6 +43,8 @@ import ElIncreibleMundoDeGumballT5 from './pages/el_increible_mundo_de_gumball_T
 import ElIncreibleMundoDeGumballT6 from './pages/el_increible_mundo_de_gumball_T6';
 import ElCircoDigital from './pages/el_circo_digital';
 import ElCircoDigitalT1 from './pages/el_circo_digital_T1';
+import Claro_promotions from './pages/claro_promotions';
+import Claro_work from './pages/claro_work';
 
 function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -102,6 +104,12 @@ function Navbar() {
         <Button as={Link} to="/series" variant="ghost" _hover={{ bg: hoverBg }}>
           Ver series
         </Button>
+        <Button as={Link} to="/claropromotions" variant="ghost" _hover={{ bg: hoverBg }}>
+          Claro - Promos
+        </Button>
+        <Button as={Link} to="/claro_work" variant="ghost" _hover={{ bg: hoverBg }}>
+          Claro - Control
+        </Button>
       </Stack>
       <Collapse in={isOpen} animateOpacity>
         <Stack
@@ -126,6 +134,12 @@ function Navbar() {
           </Button>
           <Button as={Link} to="/series" variant="ghost" _hover={{ bg: hoverBg }} onClick={toggleMenu}>
             Ver series
+          </Button>
+          <Button as={Link} to="/claro_promotions" variant="ghost" _hover={{ bg: hoverBg }} onClick={toggleMenu}>
+            Claro - Promos
+          </Button>
+          <Button as={Link} to="/claro_work" variant="ghost" _hover={{ bg: hoverBg }} onClick={toggleMenu}>
+            Claro - Control
           </Button>
         </Stack>
       </Collapse>
@@ -178,6 +192,8 @@ function App() {
         <Route path="/series/el_increible_mundo_de_gumball/t6/:episodeId?" element={<ElIncreibleMundoDeGumballT6 />} />
         <Route path="/series/el_circo_digital" element={<ElCircoDigital />} />
         <Route path="/series/el_circo_digital/t1/:episodeId?" element={<ElCircoDigitalT1 />} />
+        <Route path="/claro_promotions" element={<Claro_promotions />} />
+        <Route path="/claro_work" element={<Claro_work />} />
       </Routes>
     </Box>
   );
