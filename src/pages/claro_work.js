@@ -18,6 +18,7 @@ import {
   SimpleGrid,
   Button,
   Collapse,
+  ButtonGroup,
 } from '@chakra-ui/react';
 import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
 import {
@@ -36,11 +37,16 @@ function ClaroWork() {
     {
       semana: "Semana 1: 18 Oct 2025 - ",
       dias: [
+        { fecha: "13/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
+        { fecha: "14/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
+        { fecha: "15/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
+        { fecha: "16/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
+        { fecha: "17/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
         { fecha: "18/10/2025", tdi1_chips: 0, tdi2_chips: 1, tdi3_chips: 1, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 1, tdi2_recargas: 0, tdi3_recargas: 1, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_18_10.jpeg" },
       ]
     },
     {
-      semana: "Semana 2: 20-25 Oct 2025",
+      semana: "Semana 2: 20-26 Oct 2025",
       dias: [
         { fecha: "20/10/2025", tdi1_chips: 0, tdi2_chips: 3, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_20_10.jpeg" },
         { fecha: "21/10/2025", tdi1_chips: 1, tdi2_chips: 0, tdi3_chips: 1, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_21_10.jpeg" },
@@ -48,6 +54,7 @@ function ClaroWork() {
         { fecha: "23/10/2025", tdi1_chips: 1, tdi2_chips: 0, tdi3_chips: 1, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_23_10.jpeg" },
         { fecha: "24/10/2025", tdi1_chips: 2, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_24_10.jpeg" },
         { fecha: "25/10/2025", tdi1_chips: 1, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_25_10.jpeg" },
+        { fecha: "26/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
       ]
     },
     {
@@ -56,6 +63,7 @@ function ClaroWork() {
         { fecha: "27/10/2025", tdi1_chips: 1, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_27_10.jpeg" },
         { fecha: "28/10/2025", tdi1_chips: 2, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 1, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_28_10.jpeg" },
         { fecha: "29/10/2025", tdi1_chips: 2, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_29_10.jpeg" },
+        { fecha: "30/10/2025", tdi1_chips: 0, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/No_Baucher.png" },
         { fecha: "31/10/2025", tdi1_chips: 3, tdi2_chips: 0, tdi3_chips: 1, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 1, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_31_10.jpeg" },
       ]
     },
@@ -65,6 +73,7 @@ function ClaroWork() {
 
   const [openCharts, setOpenCharts] = useState({});
   const [showGlobalChart, setShowGlobalChart] = useState(false);
+  const [chartType, setChartType] = useState({}); // { semanaIdx: 'total', global: 'total' }
 
   const toggleChart = (idx) => {
     setOpenCharts(prev => ({ ...prev, [idx]: !prev[idx] }));
@@ -80,6 +89,9 @@ function ClaroWork() {
   const resumenBg = useColorModeValue('gray.50', 'gray.600');
   const chartColor = useColorModeValue('#8884d8', '#82ca9d');
   const totalChartColor = useColorModeValue('#3182ce', '#63b3ed');
+  const altasColor = useColorModeValue('#9f7aea', '#d6bcfa');
+  const chipsColor = useColorModeValue('#805ad5', '#b794f4');
+  const recargasColor = useColorModeValue('#dd6b20', '#f6ad55');
 
   // === CÁLCULO GLOBAL ===
   const globalResumen = ventasPorSemana.reduce((acc, semana) => {
@@ -95,6 +107,7 @@ function ClaroWork() {
         dia.tdi3_chips * precios.tdi3 +
         dia.tdi4_chips * precios.tdi4 +
         dia.tdi5_chips * precios.tdi5;
+      sAcc.chips.totalAltas += dia.tdi1_chips + dia.tdi2_chips + dia.tdi3_chips + dia.tdi4_chips + dia.tdi5_chips;
 
       sAcc.recargas.tdi1 += dia.tdi1_recargas;
       sAcc.recargas.tdi2 += dia.tdi2_recargas;
@@ -109,15 +122,22 @@ function ClaroWork() {
         dia.tdi5_recargas * precios.tdi5;
 
       return sAcc;
-    }, { chips: { tdi1: 0, tdi2: 0, tdi3: 0, tdi4: 0, tdi5: 0, totalVenta: 0 }, recargas: { tdi1: 0, tdi2: 0, tdi3: 0, tdi4: 0, tdi5: 0, totalVenta: 0 } });
+    }, { 
+      chips: { tdi1: 0, tdi2: 0, tdi3: 0, tdi4: 0, tdi5: 0, totalVenta: 0, totalAltas: 0 }, 
+      recargas: { tdi1: 0, tdi2: 0, tdi3: 0, tdi4: 0, tdi5: 0, totalVenta: 0 } 
+    });
 
     const totalSemana = semanaResumen.chips.totalVenta + semanaResumen.recargas.totalVenta;
+    const altasSemana = semanaResumen.chips.totalAltas;
 
     acc.chips.totalVenta += semanaResumen.chips.totalVenta;
     acc.recargas.totalVenta += semanaResumen.recargas.totalVenta;
     acc.semanas.push({
       semana: semana.semana.split(':')[0].trim(),
       total: totalSemana,
+      altas: altasSemana,
+      chips: semanaResumen.chips.totalVenta,
+      recargas: semanaResumen.recargas.totalVenta,
     });
 
     return acc;
@@ -139,6 +159,7 @@ function ClaroWork() {
         {/* === SEMANAS === */}
         {ventasPorSemana.map((semana, idx) => {
           const showChart = openCharts[idx] || false;
+          const currentType = chartType[idx] || 'total';
 
           const resumen = semana.dias.reduce((acc, dia) => {
             acc.chips.tdi1 += dia.tdi1_chips;
@@ -177,11 +198,25 @@ function ClaroWork() {
           const chartData = semana.dias.map(dia => {
             const totalChips = dia.tdi1_chips * precios.tdi1 + dia.tdi2_chips * precios.tdi2 + dia.tdi3_chips * precios.tdi3 + dia.tdi4_chips * precios.tdi4 + dia.tdi5_chips * precios.tdi5;
             const totalRecargas = dia.tdi1_recargas * precios.tdi1 + dia.tdi2_recargas * precios.tdi2 + dia.tdi3_recargas * precios.tdi3 + dia.tdi4_recargas * precios.tdi4 + dia.tdi5_recargas * precios.tdi5;
+            const altasDia = dia.tdi1_chips + dia.tdi2_chips + dia.tdi3_chips + dia.tdi4_chips + dia.tdi5_chips;
+
             return {
               fecha: dia.fecha.split('/')[0] + '/' + dia.fecha.split('/')[1],
               total: totalChips + totalRecargas,
+              altas: altasDia,
+              chips: totalChips,
+              recargas: totalRecargas,
             };
           });
+
+          const getLineProps = () => {
+            switch (currentType) {
+              case 'altas': return { dataKey: 'altas', name: 'Altas Diarias', stroke: altasColor };
+              case 'chips': return { dataKey: 'chips', name: 'Chips', stroke: chipsColor };
+              case 'recargas': return { dataKey: 'recargas', name: 'Recargas', stroke: recargasColor };
+              default: return { dataKey: 'total', name: 'Venta Diaria', stroke: chartColor };
+            }
+          };
 
           return (
             <Box key={idx} p={5} bg={cardBg} borderRadius="xl" boxShadow="lg" borderWidth="1px" borderColor={borderColor}>
@@ -279,7 +314,7 @@ function ClaroWork() {
                 </SimpleGrid>
               </Box>
 
-              {/* BOTÓN GRÁFICA SEMANAL */}
+              {/* BOTÓN + SELECTOR DE GRÁFICA */}
               <Box mt={4} textAlign="center">
                 <Button
                   onClick={() => toggleChart(idx)}
@@ -287,9 +322,39 @@ function ClaroWork() {
                   colorScheme="teal"
                   variant="outline"
                   size="sm"
+                  mb={2}
                 >
-                  {showChart ? 'Ocultar' : 'Mostrar'} gráfica de la semana
+                  {showChart ? 'Ocultar' : 'Mostrar'} gráfica
                 </Button>
+
+                <Collapse in={showChart}>
+                  <ButtonGroup size="sm" isAttached variant="outline" mt={2}>
+                    <Button
+                      colorScheme={currentType === 'total' ? 'teal' : 'gray'}
+                      onClick={() => setChartType(prev => ({ ...prev, [idx]: 'total' }))}
+                    >
+                      Venta Total
+                    </Button>
+                    <Button
+                      colorScheme={currentType === 'altas' ? 'purple' : 'gray'}
+                      onClick={() => setChartType(prev => ({ ...prev, [idx]: 'altas' }))}
+                    >
+                      Altas Diarias
+                    </Button>
+                    <Button
+                      colorScheme={currentType === 'chips' ? 'purple' : 'gray'}
+                      onClick={() => setChartType(prev => ({ ...prev, [idx]: 'chips' }))}
+                    >
+                      Chips
+                    </Button>
+                    <Button
+                      colorScheme={currentType === 'recargas' ? 'orange' : 'gray'}
+                      onClick={() => setChartType(prev => ({ ...prev, [idx]: 'recargas' }))}
+                    >
+                      Recargas
+                    </Button>
+                  </ButtonGroup>
+                </Collapse>
               </Box>
 
               {/* GRÁFICA SEMANAL */}
@@ -300,9 +365,9 @@ function ClaroWork() {
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="fecha" tick={{ fontSize: 12 }} />
                       <YAxis tick={{ fontSize: 12 }} />
-                      <Tooltip formatter={(value) => `${value} C$`} />
+                      <Tooltip formatter={(value) => currentType === 'altas' ? value : `${value} C$`} />
                       <Legend />
-                      <Line type="monotone" dataKey="total" stroke={chartColor} strokeWidth={3} name="Venta Diaria" dot={{ fill: chartColor }} />
+                      <Line type="monotone" {...getLineProps()} strokeWidth={3} dot={{ r: 4 }} />
                     </LineChart>
                   </ResponsiveContainer>
                 </Box>
@@ -323,12 +388,42 @@ function ClaroWork() {
               variant="solid"
               size="md"
             >
-              {showGlobalChart ? 'Ocultar' : 'Mostrar'} Evolución por Semana y Ganancias Totales
+              {showGlobalChart ? 'Ocultar' : 'Mostrar'} Evolución por Semana
             </Button>
           </Box>
 
           <Collapse in={showGlobalChart} animateOpacity>
             <Box>
+              {/* SELECTOR GLOBAL */}
+              <Box textAlign="center" mb={4}>
+                <ButtonGroup size="md" isAttached variant="outline">
+                  <Button
+                    colorScheme={chartType.global === 'total' ? 'purple' : 'gray'}
+                    onClick={() => setChartType(prev => ({ ...prev, global: 'total' }))}
+                  >
+                    Venta Semanal
+                  </Button>
+                  <Button
+                    colorScheme={chartType.global === 'altas' ? 'purple' : 'gray'}
+                    onClick={() => setChartType(prev => ({ ...prev, global: 'altas' }))}
+                  >
+                    Altas Semanal
+                  </Button>
+                  <Button
+                    colorScheme={chartType.global === 'chips' ? 'purple' : 'gray'}
+                    onClick={() => setChartType(prev => ({ ...prev, global: 'chips' }))}
+                  >
+                    Chips Semanal
+                  </Button>
+                  <Button
+                    colorScheme={chartType.global === 'recargas' ? 'orange' : 'gray'}
+                    onClick={() => setChartType(prev => ({ ...prev, global: 'recargas' }))}
+                  >
+                    Recargas Semanal
+                  </Button>
+                </ButtonGroup>
+              </Box>
+
               {/* GRÁFICA GENERAL */}
               <Box p={4} bg={resumenBg} borderRadius="lg" mb={6}>
                 <ResponsiveContainer width="100%" height={300}>
@@ -336,9 +431,26 @@ function ClaroWork() {
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="semana" tick={{ fontSize: 12 }} />
                     <YAxis tick={{ fontSize: 12 }} />
-                    <Tooltip formatter={(value) => `${value} C$`} />
+                    <Tooltip formatter={(value) => chartType.global === 'altas' ? value : `${value} C$`} />
                     <Legend />
-                    <Line type="monotone" dataKey="total" stroke={totalChartColor} strokeWidth={4} name="Venta Semanal" dot={{ fill: totalChartColor, r: 6 }} />
+                    <Line
+                      type="monotone"
+                      dataKey={chartType.global || 'total'}
+                      name={
+                        chartType.global === 'altas' ? 'Altas Semanal' :
+                        chartType.global === 'chips' ? 'Chips Semanal' :
+                        chartType.global === 'recargas' ? 'Recargas Semanal' :
+                        'Venta Semanal'
+                      }
+                      stroke={
+                        chartType.global === 'altas' ? altasColor :
+                        chartType.global === 'chips' ? chipsColor :
+                        chartType.global === 'recargas' ? recargasColor :
+                        totalChartColor
+                      }
+                      strokeWidth={4}
+                      dot={{ r: 6 }}
+                    />
                   </LineChart>
                 </ResponsiveContainer>
               </Box>
