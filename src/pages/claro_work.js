@@ -92,7 +92,13 @@ function ClaroWork() {
           fecha: "29/10/2025",
           tdi1_chips: 2, tdi2_chips: 0, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0,
           tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0,
-          baucher: "bauchersClaro/Deposito_Claro_18_10.jpeg"
+          baucher: "bauchersClaro/Deposito_Claro_29_10.jpeg"
+        },
+        {
+          fecha: "31/10/2025",
+          tdi1_chips: 3, tdi2_chips: 0, tdi3_chips: 1, tdi4_chips: 0, tdi5_chips: 0,
+          tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 1, tdi4_recargas: 0, tdi5_recargas: 0,
+          baucher: "bauchersClaro/Deposito_Claro_31_10.jpeg"
         },
       ]
     },
