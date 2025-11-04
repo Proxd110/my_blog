@@ -67,6 +67,12 @@ function ClaroWork() {
         { fecha: "31/10/2025", tdi1_chips: 3, tdi2_chips: 0, tdi3_chips: 1, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 0, tdi3_recargas: 1, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_31_10.jpeg" },
       ]
     },
+    {
+      semana: "Semana 4: 1-8 Nov 2025",
+      dias: [
+        { fecha: "01/11/2025", tdi1_chips: 0, tdi2_chips: 1, tdi3_chips: 0, tdi4_chips: 0, tdi5_chips: 0, tdi1_recargas: 0, tdi2_recargas: 1, tdi3_recargas: 0, tdi4_recargas: 0, tdi5_recargas: 0, baucher: "bauchersClaro/Deposito_Claro_01_11.jpeg" },
+      ]
+    },
   ];
 
   const precios = { tdi1: 60, tdi2: 85, tdi3: 110, tdi4: 200, tdi5: 300 };
